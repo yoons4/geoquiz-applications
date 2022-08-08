@@ -4,13 +4,13 @@ const app        =   express();
 const session  	 =   require('express-session')
 const path       =   require('path');
 //configuring the database
-const dbConfig   =   { url: 'mongodb://geos:maps@node10828-geography.us.reclaim.cloud/geoquiz'};
+const dbConfig   =   { url: 'mongodb://geos:maps@node10828-geography.us.reclaim.cloud'};
 const mongoose   =   require('mongoose');
 const compression=   require('compression')
 // const https			 =	 require('https');
 // const pm2   = require('pm2');
 // const nodeMailer = require('nodemailer');
-const port = 3002;
+const port = 3003;
 
 
 
